@@ -27,6 +27,9 @@
     "build": "tsc && tree dist",
     "prepublishOnly": "pnpm run build"
   },
+  "bin": {
+    "demo": "./bin/demo.js"
+  },
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^24.3.0",
