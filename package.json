@@ -1,12 +1,12 @@
 {
   "name": "@metagov/path",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "license": "ISC",
   "author": "Jonathan Claggett",
   "email": "jonathan@claggett.org",
   "url": "https://github.com/jclaggett/path",
   "bugs": {
-    "url": "https://github.com/jclaggett/rxf/issues",
+    "url": "https://github.com/jclaggett/path/issues",
     "email": "jonathan@claggett.org"
   },
   "description": "A utility class for dynamic construction of paths to access object properties",

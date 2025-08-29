@@ -115,4 +115,4 @@ pnpm run test --coverage
 
 ## License
 
-MIT
+ISC
