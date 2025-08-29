@@ -1,0 +1,41 @@
+{
+  "name": "@metagov/path",
+  "version": "0.1.0",
+  "license": "ISC",
+  "author": "Jonathan Claggett",
+  "email": "jonathan@claggett.org",
+  "url": "https://github.com/jclaggett/path",
+  "bugs": {
+    "url": "https://github.com/jclaggett/rxf/issues",
+    "email": "jonathan@claggett.org"
+  },
+  "description": "A utility class for dynamic construction of paths to access object properties",
+  "keywords": [
+    "typescript",
+    "path",
+    "object-path",
+    "proxy"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rvf dist coverage node_modules",
+    "test": "jest",
+    "build": "tsc && tree dist",
+    "prepublishOnly": "pnpm run build"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
