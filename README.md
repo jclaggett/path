@@ -6,6 +6,11 @@ A TypeScript utility class for dynamic construction of paths to access object pr
 - **Callable Paths**: `$.a.b.c({a:{b:{c: 42}}}) // 42`
 - **Type Safety**: Fully typed for robust development
 
+Run the demo yourself:
+```bash
+npx @metagov/path demo
+```
+
 ## Installation
 
 ```bash
