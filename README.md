@@ -8,13 +8,13 @@ A TypeScript utility class for dynamic construction of paths to access object pr
 
 Run the demo yourself:
 ```bash
-npx @metagov/path demo
+pnpx @metagov/path demo
 ```
 
 ## Installation
 
 ```bash
-npm install @metagov/path
+pnpm install @metagov/path
 ```
 
 ## Usage
